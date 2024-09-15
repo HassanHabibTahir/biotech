@@ -3,8 +3,8 @@
     const mongoose = require('mongoose');
 
 // MongoDB connection URI
-const uri = 'mongodb://localhost:27017/microservices'; // Change this to your MongoDB URI
-
+// const uri = 'mongodb://localhost:27017/microservices'; // Change this to your MongoDB URI
+const uri = "mongodb+srv://nftthee:nftthee@cluster0.hov9i7k.mongodb.net/"
 // Function to connect to MongoDB
 const connectToMongoDB = () => {
   return new Promise((resolve, reject) => {
